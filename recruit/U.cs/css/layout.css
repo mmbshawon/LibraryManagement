@@ -1,0 +1,205 @@
+/*
+=====================================================================
+*   Zoon v1.0 Layout Stylesheet
+*   url: styleshout.com
+*   06-07-2014
+=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Intro Section
+   c. About Section
+   d. Location Section
+   e. Footer
+
+===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #0f0f0f; }
+
+
+/* ------------------------------------------------------------------ */
+/* b. Intro Styles
+/* ------------------------------------------------------------------ */
+
+#intro {
+   background: #161415 url(../images/header-background.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;   
+}
+
+/* Header 
+/* ------------------------------------------------------------------ */
+
+/* primary navigation
+--------------------------------------------------------------------- */
+
+/* Main 
+------------------------------------------------------------------ */
+#main {
+	margin: 0px auto 0;
+	text-align: center;	
+}
+#main h1 {
+	font: 42px/1.2em 'montserrat-bold', sans-serif;	
+	color: #fff;
+	margin-bottom: 18px;	
+	padding: 0 10%;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);	
+}
+#main p {	
+	font: 16px/33px 'montserrat-regular', sans-serif;
+	color: #fff;
+	margin-bottom: 18px;
+	padding: 0 18%;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);
+}
+#main h5 {
+	font: 13px/24px 'montserrat-bold', sans-serif;
+	color: #1F782F;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);	
+}
+
+/* counter */
+#main #counter {
+	width: 75%;
+	color: #fff;
+	text-align: center;
+	margin: 18px auto 0;
+}
+#main #counter span {
+	font: 70px/1em 'merriweather-bold', serif;
+	display: block;
+	padding: 12px 0 30px;
+	min-width: 25%;
+	float: left;	
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);	
+	border-left: 1px dotted rgba(255, 255, 255, .2);	
+}
+#main #counter span:first-child { border-left: none; }
+#main #counter span em {
+	font: 11px/18px 'montserrat-regular', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-top: 12px;	
+	display: block;
+	color: #BCBCBC;
+	color: rgba(255, 255, 255,.6);
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);	
+}
+
+/* mailchimp form */
+#main #mc_embed_signup {
+	clear: both;
+	margin: 48px auto 18px;
+	width: 50%;	
+}
+#main #mc_embed_signup:before,
+#main #mc_embed_signup:after {
+    content: " ";
+    display: table;
+}
+#main #mc_embed_signup:after {
+    clear: both;
+}
+
+#main #mc_embed_signup input {
+	display: inline-block;
+	float: left;
+}
+#main #mc_embed_signup input[type="email"] {	
+	font-size: 15px;
+	height: 54px;
+	line-height: 30px;
+	padding: 12px 15px;
+	border-radius: 3px 0 0 3px;	
+	background: #727272;
+	background: rgba(255, 255, 255, .2);	
+	width: 70%;
+}
+#main #mc_embed_signup input[type="submit"] {
+	font-size: 15px;
+	line-height: 30px;
+	height: 54px;
+	padding: 12px 30px;
+	margin: 0 0 18px 0;
+	border-radius: 0 3px 3px 0;	
+	background: #197C28;
+	background: rgba(25, 124, 40, 1);	
+	width: 30%;	
+}
+#main #mc_embed_signup input[type="submit"]:hover {
+	background: #146320;
+}
+
+/* social links */
+#main .social {
+	color:#fff;
+	clear: both;
+	font-size: 22px;
+   margin: 12px 0 24px;
+   padding: 0;   
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#main .social li {
+   display: inline-block;
+   margin: 0 12px;
+   padding: 0;
+}
+#main .social li a { color: #fff; }
+#main .social li a:hover { color: #197C28; }
+
+
+.fa {
+    color: #fff;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* e. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+	font: 14px/24px 'montserrat-regular', sans-serif;
+	background: #0f0f0f;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   color: #838c95;      
+}
+footer a, footer a:visited { color: #838c95; }
+footer a:hover, footer a:focus { color: #fff; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 6px;
+    padding-right: 10px;
+    color: #fff;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+

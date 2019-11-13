@@ -1,0 +1,57 @@
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*---------------LINK PAGE BODY START---------------*/
+
+#link-page-body {
+	background:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*---------------LINK PAGE BODY END-----------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*----------LINK PAGE(ABOUT US) DIV START-----------*/
+
+#section-div {
+	background:#FFF;
+	padding:15px;
+}
+#section-div-menu ul li {
+	padding:2px;
+}
+#section-div-sub{
+	background:#FFF;
+}
+
+#section-div-sub h3 {
+	background:#F2F2F2;
+	padding:10px;
+}
+#section-div-sub h4 {
+	padding:10px;
+	border-bottom:1px solid #333;
+}
+#section-div-sub p {
+	padding:20px;
+	text-align:justify;
+}
+#section-div-sub img {
+	padding:5px;
+}
+#section-div-sub a {
+	text-decoration:none;
+}
+#section-div-sub-table {
+	padding:40px;
+	text-align:left;
+}
+#section-div-sub1 {
+	padding:20px;
+}
+#section-div-sub2 {
+	padding:20px;
+}
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*----------LINK PAGE(ABOUT US) DIV END-------------*/
